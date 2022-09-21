@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+
+button {
+  font-family: 'Roboto Mono', monospace;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+  background: linear-gradient(
+    0deg,
+    rgba(31, 31, 31, 1) 0%,
+    rgba(255, 20, 234, 1) 100%
+  );
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #1f1f1f;
+}
