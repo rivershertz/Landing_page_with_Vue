@@ -24,10 +24,17 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 30%;
+    width: 80%;
+    padding: 1rem;
+    height: 80%;
   }
 
   .testa__quote {
     padding: 1rem;
+    overflow: hidden;
+  }
+  .testa__avatar {
+    border-radius: 50%;
+    max-width: 100%;
   }
 </style>

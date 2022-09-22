@@ -6,3 +6,9 @@
   padding: 5rem;
   font-weight: normal;
 }
+@media screen and (min-width: 320px) {
+  #app {
+    margin: 0 auto;
+    padding: 1rem 1rem;
+  }
+}
