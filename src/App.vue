@@ -49,7 +49,7 @@
             :company="slide.company"
             :position="slide.position"
             :quote="slide.quote"
-            :class="carousel__item"
+            class="carousel__item"
           />
         </Slide>
 
@@ -193,8 +193,9 @@
     font-size: 45px;
   }
   .testa__carousel {
-    margin: 1rem;
+    margin: 1.25rem;
   }
+
   .footer {
     margin: 70px 0 0;
     color: #ff60f2;
